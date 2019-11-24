@@ -10,7 +10,6 @@ services:
             - /app/node_modules
             - .:/app
     react-app-tests:
-        restart: always
         build:
             context: .
             dockerfile: Dockerfile.dev
