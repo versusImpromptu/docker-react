@@ -20,7 +20,3 @@ it('should return true', () => {
 it('should return true', () => {
     console.log('true');
 });
-
-it('should fail', () => {
-    throw new Error('Does this work!?');
-});
